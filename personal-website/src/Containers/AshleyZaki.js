@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react'
 import NavBar from './NavBar'
+import AboutMe from '../Components/AboutMe'
 
 class AshleyZaki extends Component {
 
@@ -7,8 +8,8 @@ class AshleyZaki extends Component {
     render(){
         return (
             <Fragment>
-               <NavBar />
-                Hi
+                <NavBar />
+                <AboutMe />
                
             </Fragment>
         )
